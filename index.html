@@ -1,93 +1,119 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>AKPsi - NJIT</title>
+    <title>Tailored by Tony</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
   </head>
+
   <body>
+    <!-- <div id="notification">
+      <div class="container">
+        <p>If you are seeing this it means I am currently working on this build :)</p>
+      </div>
+    </div> -->
     <header>
-      <div class="content">
-        <h1>ALPHA KAPPA PSI</h1>
-        <h2>NJIT’s Professional Business Fraternity</h2>
+      <div class="container">
+        <h1>Tailored by Tony</h1>
+        <h1>Tailored for you</h1>
+        <hr />
+        <a href="#about" class="red">About</a>
+        <a href="#projects" class="blue">Projects</a>
+        <a href="#contact" class="green">Contact</a>
       </div>
     </header>
 
-    <nav>
-      <div class="content">
-        <p onclick="showMenu()">TEST</p>
-        <img src="img/seal.svg" />
-      </div>
-      <div id="navOverlay">
-        <h1 onclick="hideMenu()">X</h1>
-        <div class="links">
-          <a href="#">Our Story</a>
-          <a href="#">Brothers</a>
-          <a href="#">Initiates</a>
-          <a href="#">Contact</a>
+    <div id="content">
+      <div class="wrap" id="about">
+        <div class="container">
+          <h1 class="red">About me.</h1>
+          <hr class="white" />
+          <h2>"I want to make the best looking and most usable systems."</h2>
+          <p>
+            I am a junior studying Human-Computer Interaction at the New Jersey Institute of Technology.
+            For about a year now I have been doing research in a UX Lab where I have learned more about the iterative design process and research methods.
+            I hope to work in a team where I can both learn from others and make big differences for others.
+          </p>
+          <p>
+            When I am not working on projects, school work, and being involved in campus organizations I can be found hanging out with friends and family.
+            In my spare time I enjoy photography, geocaching, and gaming.
+          </p>
+          <a href="Resume.pdf">Check out my resume.</a>
         </div>
       </div>
-    </nav>
+      <div class="wrap" id="projects">
+        <div class="container">
+          <h1 class="blue">Tailored by Tony.</h1>
+          <hr class="green" />
+          <h2>Things I've done that I'd like to share with you.
+          <div class="project-container">
 
-    <div id="news">
-      <div class="content">
-        <h3>Latest News</h3>
-        <hr />
-        <div class="article">
-          <h4>News Title</h4>
-          <img src="" />
-          <h5>This is a preview of the article content...</h5>
-          <h5>Author Name - Date</h5>
+              <a href="projects/nucleus.html">
+                <div class="folder">
+                  <h5>Nucleus Yearbook</h5>
+                  <hr />
+                  <h6>Creating a new way to organize.</h6>
+                </div>
+              </a>
+
+              <a href="projects/carlot.html">
+                <div class="folder">
+                  <h5>Car Lot</h5>
+                  <hr />
+                  <h6>Building a website with SQL.</h6>
+                </div>
+              </a>
+
+              <!-- <a href="projects/survey.html">
+                <div class="folder">
+                  <h5>Research Survey</h5>
+                  <hr />
+                  <h6>Findings of an activity study.</h6>
+                </div>
+              </a> -->
+
+            </div>
+          </div>
+        </div>
+        <div class="wrap" id="contact">
+          <div class="container">
+            <h1 class="green">Connect with me.</h1>
+            <hr class="black" />
+            <a href="mailto:afm36@njit.edu?Subject=From%20Site" target="_top">afm36@njit.edu</a>
+            <br />
+            <a href="https://www.linkedin.com/in/antoniomistretta" target="_top">LinkedIn</a>
+            <br />
+            <a href="https://github.com/TonyTretta" target="_top">GitHub</a>
+            <p></p>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div id="events">
-      <div class="content">
-        <h3>Upcoming Events</h3>
-        <hr />
-        <h3>Event Title</h3>
-        <h6>Event Date and Time</h6>
-        <h3>Event Title</h3>
-        <h6>Event Date and Time</h6>
-        <h3>Event Title</h3>
-        <h6>Event Date and Time</h6>
-        <h3>Event Title</h3>
-        <h6>Event Date and Time</h6>
-      </div>
-    </div>
-
-    <div id="spotlight">
-      <div class="content">
-        <h3 class="name">Antonio Mistretta</h3>
-        <hr />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur eget dolor vel lacinia. Pellentesque nisl dolor, scelerisque ac aliquam eget, tristique in enim. Maecenas efficitur rhoncus mi nec molestie. Sed turpis elit, hendrerit in tortor vel, tempus porttitor augue. Aenean dignissim in augue sit amet laoreet. Nam lobortis, justo id molestie porttitor, ante felis sagittis tellus, non mattis neque nisl vitae ex. Pellentesque gravida odio ac risus pellentesque.
-        </p>
-      </div>
-    </div>
-
-    <footer>
-      <div class="content">
-        <p>Tailored by <a href="https://www.tonytretta.me">Tony</a></p>
-      </div>
-    </footer>
 
     <script src="js/main.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-85181035-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+
   </body>
-</html>
+ </html>

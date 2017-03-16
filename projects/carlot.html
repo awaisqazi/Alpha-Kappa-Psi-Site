@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Tailored by Tony - Case Study</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  </head>
+
+  <body id="project-page">
+    <div id="content">
+      <div class="wrap" id="project">
+        <div class="container back">
+          <a href="../index.html#projects">Go back</a>
+        </div>
+        <div class="container">
+          <h1 class="blue">Car Lot</h1>
+          <h2>Building a website with SQL.</h2>
+          <hr />
+          <h3>The Challenge</h3>
+          <p>
+            As apart of a web development course at NJIT each student had to design an online system using a simple database.
+            In the class we were learning to use MySQL as my school provides partitioned storage for tables.
+            Being new to this technology, MySQL, PHP, and databases altogether, I had to break up my learning into managable pieces.
+          </p>
+          <p>
+            The other challenege was finding an application to build.
+            My professor had made a few suggestions however it was encouraged to make something that interets me.
+            The app just had to follow a few guidelines:
+          </p>
+          <ul>
+            <li>Follow MVC format</li>
+            <li>Have a form of login with a hashed password</li>
+            <li>Be a system people would actually use</li>
+          </ul>
+          <p>
+            The rest was up to pure implementation and creativity.
+          </p>
+          <h3>The Solution</h3>
+          <p>
+            I started by breaking up my application into a Model-View-Controller (MVC) which allowed me to compartmentalize my code and design process.
+            Reading up on what MVC is and how it is implemented was the most useful way to learn about this.
+          </p>
+          <div class="projectIMG">
+            <p>Source: iOS Programming 6th Edition, Big Nerd Ranch</p>
+            <img src="../assets/projects/mvc.jpg" />
+          </div>
+          <p>
+            What came next was finding an idea.
+            I decided to create an online board for people to post their cars that they wish to advertise.
+            This was relevant to me at the time because my father was in the process of helping me find my first car.
+          </p>
+          <p>
+            The front-end of the project was very easy and quick.
+            After creating a simple logo and design style I created a quick mockup for the site.
+          </p>
+          <div class="projectIMG">
+            <p>Landing page for Car Lot</p>
+            <img src="../assets/projects/carlotlanding.jpg" />
+          </div>
+          <p>
+            From there I just needed to create a database, provided from my school, and connect it to my site using PHP.
+            The database was organized into two tables, one for users and one for cars.
+            The tables were linked using the userID, that was auto assigned upon account creation, and the carID.
+          </p>
+          <div class="projectIMG">
+            <p>Notice that the passwords are hashed</p>
+            <img src="../assets/projects/carlotdata.jpg" />
+          </div>
+          <p>
+            One of the last things to add was a way to add a car.
+            I decided to use VPNs as it is a standard way to identify what a car is.
+            Thankfully Edmunds has an API that allows me to retreve an object based off of a VPN.
+          </p>
+          <h3>Closing Thoughts</h3>
+          <p>
+            This project was very empowering in my capacity to learn quickly and use systems that others create to speed things along.
+            If I were to change anything in this project I would update the scalability of this project.
+            If many more cars were added a new way to filter what you want and don't want would make the process much easier and faster.
+          </p>
+          <div class="demo">
+            <a class="demo" href="https://web.njit.edu/~afm36/Car-Lot/" target="_blank">Check out the live demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+ </html>
