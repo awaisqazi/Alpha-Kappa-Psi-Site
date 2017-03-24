@@ -9,13 +9,18 @@ header {
 }
 
 header h1 {
-  font-family: 'Playfair Display';
+  font-family: 'Archivo Black', sans-serif;
   color: gold;
+  font-size: 80px;
+  letter-spacing: 2px;
+  margin: 10px;
 }
 
 header h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Tenor Sans', sans-serif;
   color: gold;
+  font-size: 34px;
+  margin: 10px;
 }
 
 .letter-wrap {
@@ -33,5 +38,14 @@ header h2 {
 #presidential-letter div {
   max-width: 480px;
   margin: auto;
-  background-color: blue;
+  padding: 10px;
+}
+
+#presidential-letter #text h3 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 30px;
+}
+
+#presidential-letter #text p {
+  font-family: 'Raleway', sans-serif;
 }
