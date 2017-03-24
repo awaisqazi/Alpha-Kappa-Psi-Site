@@ -10,31 +10,58 @@ header {
 
 header h1 {
   font-family: 'Archivo Black', sans-serif;
-  color: gold;
   font-size: 80px;
   letter-spacing: 2px;
+  color: gold;
   margin: 10px;
 }
 
 header h2 {
   font-family: 'Tenor Sans', sans-serif;
-  color: gold;
   font-size: 34px;
+  color: gold;
   margin: 10px;
 }
 
-body:nth-child(2n) {
-  background-color: red;
+
+
+nav {
+  height: 50px;
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.letter-wrap {
+nav a {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: navy;
+  padding: 15px;
+  text-decoration: none;
+  border-bottom: 0px solid navy;
+}
+
+nav a:hover {
+  padding-bottom: 10px;
+  border-bottom: 5px solid navy;
+  transition: all 0.1s cubic-bezier(.25,.8,.25,1);
+}
+
+.wrap:nth-child(2) {
+  background-color: gold;
+}
+
+.wrap:nth-child(2n-1) {
   background-color: #f5f5f5;
 }
 
 #presidential-letter {
   max-width: 960px;
   margin: auto;
-  background-color: #f5f5f5;
   display: flex;
   flex-direction: row;
 }
@@ -45,11 +72,24 @@ body:nth-child(2n) {
   padding: 10px;
 }
 
-#presidential-letter #text h3 {
+#presidential-letter h3 {
   font-family: 'Archivo Black', sans-serif;
   font-size: 30px;
 }
 
-#presidential-letter #text p {
+#presidential-letter p {
   font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+#presidential-letter img {
+  width: 400px;
+  height: auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#presidential-letter img:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  cursor: pointer;
 }
