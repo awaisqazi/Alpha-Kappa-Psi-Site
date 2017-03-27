@@ -5,21 +5,21 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: navy;
+  background-color: #2c4b81;
 }
 
 header h1 {
   font-family: 'Archivo Black', sans-serif;
   font-size: 80px;
   letter-spacing: 2px;
-  color: gold;
+  color: #fff;
   margin: 10px;
 }
 
 header h2 {
   font-family: 'Tenor Sans', sans-serif;
   font-size: 34px;
-  color: gold;
+  color: #eaaf0f;
   margin: 10px;
 }
 
@@ -39,20 +39,25 @@ nav a {
   font-family: 'Archivo Black', sans-serif;
   font-size: 20px;
   line-height: 20px;
-  color: navy;
+  color: #2c4b81;
   padding: 15px;
   text-decoration: none;
-  border-bottom: 0px solid navy;
+  border-bottom: 0px solid #2c4b81;
 }
 
 nav a:hover {
   padding-bottom: 10px;
-  border-bottom: 5px solid navy;
+  border-bottom: 5px solid #2c4b81;
   transition: all 0.1s cubic-bezier(.25,.8,.25,1);
 }
 
+nav img {
+  width: 100px;
+  height: 100px;
+}
+
 .wrap:nth-child(2) {
-  background-color: gold;
+  background-color: #eaaf0f;
 }
 
 .wrap:nth-child(2n-1) {
