@@ -1,100 +1,44 @@
-header {
-  height: 300px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #2c4b81;
-}
-
-header h1 {
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 80px;
-  letter-spacing: 2px;
-  color: #fff;
-  margin: 10px;
-}
-
-header h2 {
-  font-family: 'Tenor Sans', sans-serif;
-  font-size: 34px;
-  color: #eaaf0f;
-  margin: 10px;
-}
-
-
-
 nav {
-  height: 50px;
-  max-width: 960px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+  background-color: #2c4b81 !important;
 }
 
 nav a {
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 20px;
-  line-height: 20px;
-  color: #2c4b81;
-  padding: 15px;
-  text-decoration: none;
-  border-bottom: 0px solid #2c4b81;
+  color: #ffffff !important;
 }
 
-nav a:hover {
-  padding-bottom: 10px;
-  border-bottom: 5px solid #2c4b81;
-  transition: all 0.1s cubic-bezier(.25,.8,.25,1);
+.carousel-item {
+  justify-content: center;
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: center;
 }
 
-nav img {
-  width: 100px;
-  height: 100px;
+.d-block {
+  height: 400px;
 }
 
-.wrap:nth-child(2) {
-  background-color: #eaaf0f;
+.carousel-1 {
+  background-image: url(http://placehold.it/1000x400);
 }
 
-.wrap:nth-child(2n-1) {
-  background-color: #f5f5f5;
+.carousel-2 {
+  background-image: url(http://placehold.it/1000x400);
 }
 
-#presidential-letter {
-  max-width: 960px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
+.carousel-3 {
+  background-image: url(http://placehold.it/1000x400);
 }
 
-#presidential-letter div {
-  max-width: 480px;
-  margin: auto;
-  padding: 10px;
+.wrap {
+  padding: 25px 0;
 }
 
-#presidential-letter h3 {
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 30px;
+#welcome h1 {
+  text-align: center;
 }
 
-#presidential-letter p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-}
-
-#presidential-letter img {
-  width: 400px;
-  height: auto;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-#presidential-letter img:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  cursor: pointer;
+@media (min-width: 0px) and (max-width: 580px) {
+  .nav-container {
+      width: 540px !important;
+      max-width: 100% !important;
 }
