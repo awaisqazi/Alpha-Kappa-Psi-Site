@@ -75,4 +75,8 @@ header {
   .nav-container {
       width: 540px !important;
       max-width: 100% !important;
+  }
+  .d-block {
+    height: 250px !important;
+  }
 }
