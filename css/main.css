@@ -4,6 +4,15 @@ nav {
 
 nav a {
   color: #ffffff !important;
+  border-bottom: 0px solid gold;
+}
+
+nav a:hover {
+
+}
+
+nav a.disabled {
+  opacity: 0.6;
 }
 
 nav button {
@@ -22,16 +31,28 @@ header {
   background-position: center;
 }
 
+.carousel-control-next {
+  background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 70%);
+}
+
+.carousel-control-prev {
+  background: linear-gradient(to left, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 70%);
+}
+
+.carousel-control-next, .carousel-control-prev {
+  opacity: 0.5 !important;
+}
+
 .d-block {
-  height: 400px;
+  height: 500px;
 }
 
 .carousel-1 {
-  background-image: url(http://placehold.it/1000x400);
+  background-image: url(../assets/jpg/group.jpg);
 }
 
 .carousel-2 {
-  background-image: url(http://placehold.it/1000x400);
+  background-image: url(../assets/jpg/skyline.jpg);
 }
 
 .carousel-3 {
@@ -42,8 +63,12 @@ header {
   padding: 25px 0;
 }
 
-#welcome h1 {
-  text-align: center;
+.slide h1 {
+  margin-bottom: 25px;
+}
+
+.slide img {
+  width: 100%;
 }
 
 @media (min-width: 0px) and (max-width: 580px) {
