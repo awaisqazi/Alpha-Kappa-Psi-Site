@@ -4,15 +4,27 @@ body {
 
 nav {
   background-color: #2c4b81 !important;
+  padding: 0px 16px !important;
 }
 
 nav a {
   color: #ffffff !important;
+  padding: 16px 8px !important;
   border-bottom: 0px solid gold;
 }
 
-nav a:hover {
+nav .navbar-brand {
+  padding: 13px 8px !important;
+}
 
+nav ul a:hover {
+  background-color: #475C81;
+}
+
+nav ul a.active {
+  border-bottom: 4px solid gold;
+  padding-bottom: 12px !important;
+  cursor: pointer;
 }
 
 nav a.disabled {
@@ -98,6 +110,21 @@ header {
   margin: 50px auto;
   border-width: 3px;
   border-color: gold;
+}
+
+#history .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px auto;
+}
+
+#history .image img {
+  width: 100%;
+}
+
+#history .image h1 {
+  margin: 10px 0;
 }
 
 footer {
