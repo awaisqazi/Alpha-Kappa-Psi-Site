@@ -34,6 +34,7 @@ nav a.disabled {
 nav button {
   background-color: #f5f5f5 !important;
   right: 0px !important;
+  margin: 8px 0 !important;
 }
 
 header {
