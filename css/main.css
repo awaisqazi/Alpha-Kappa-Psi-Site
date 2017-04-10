@@ -49,15 +49,20 @@ header {
 }
 
 .carousel-control-next {
-  background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 70%);
+  background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
 }
 
 .carousel-control-prev {
-  background: linear-gradient(to left, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 70%);
+  background: linear-gradient(to left, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
 }
 
 .carousel-control-next, .carousel-control-prev {
   opacity: 0.5 !important;
+  transition: 500ms;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+  opacity: 0.6 !important;
 }
 
 .d-block {
