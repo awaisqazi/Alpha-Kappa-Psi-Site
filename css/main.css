@@ -64,6 +64,7 @@ header {
 }
 
 .slide h1 {
+  margin-top: 0px;
   margin-bottom: 25px;
 }
 
@@ -78,5 +79,8 @@ header {
   }
   .d-block {
     height: 250px !important;
+  }
+  .slide h1 {
+    margin-top: 25px !important;
   }
 }
