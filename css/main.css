@@ -154,6 +154,29 @@ header h3 {
   border-color: gold;
 }
 
+.core h1 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.core p {
+  text-align: center;
+}
+
+.question {
+  margin-bottom: 50px;
+}
+
+.question h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+#tag h1, #vison h1  {
+  margin-bottom: 50px;
+}
+
 #welcome p, #history p {
   font-size: 16px;
   line-height: 22px;
@@ -180,6 +203,19 @@ header h3 {
   text-align: center;
   line-height: 50px;
   font-family: "Tenor Sans"
+}
+
+#blurb {
+    margin-top: 50px;
+    padding: 70px 0;
+    background-color: #000;
+}
+
+#blurb p {
+  font-size: 40px;
+  text-align: center;
+  /*text-indent: 3em hanging;*/
+  color: #fff;
 }
 
 .headshot {
