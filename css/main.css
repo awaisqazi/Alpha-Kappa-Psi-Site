@@ -143,6 +143,17 @@ header {
 
 .headshot img {
   width: 100%;
+  margin: 5px;
+}
+
+.headshot h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.headshot h3 {
+  font-size: 16px;
+  text-align: center;
 }
 
 footer {
