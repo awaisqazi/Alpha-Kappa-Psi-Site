@@ -91,6 +91,7 @@ header {
   background-image: url(../assets/jpg/newark.jpg);
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 header h1 {
