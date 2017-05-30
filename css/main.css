@@ -70,7 +70,7 @@ header {
 }
 
 .carousel-1 {
-  background-image: url(../assets/jpg/group.jpg);
+  background-image: url(../assets/jpg/newark.jpg);
 }
 
 .carousel-2 {
@@ -78,7 +78,7 @@ header {
 }
 
 .carousel-3 {
-  background-image: url(http://placehold.it/1000x400);
+  background-image: url(../assets/jpg/group.jpg);
 }
 
 .wrap {
@@ -106,16 +106,20 @@ header {
   margin-left: 0;
 }
 
-#welcome h1, #history h1 {
+.header h1 {
   text-align: center;
   margin-top: 75px;
 }
 
-#welcome hr, #history hr {
+.header hr {
   width: 70px;
   margin: 50px auto;
   border-width: 3px;
   border-color: gold;
+}
+
+#welcome p, #history p {
+  font-size: 20px;
 }
 
 #history .image {
@@ -131,6 +135,14 @@ header {
 
 #history .image h1 {
   margin: 10px 0;
+}
+
+.headshot {
+  margin-bottom: 30px;
+}
+
+.headshot img {
+  width: 100%;
 }
 
 footer {
@@ -171,6 +183,8 @@ footer p {
   text-decoration: none;
 }
 
+
+
 @media (min-width: 0px) and (max-width: 580px) {
   .nav-container {
       width: 540px !important;
@@ -182,4 +196,5 @@ footer p {
   .slide h1 {
     margin-top: 25px !important;
   }
+
 }
