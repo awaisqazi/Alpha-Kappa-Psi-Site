@@ -145,6 +145,7 @@ header h3 {
 .header h1 {
   text-align: center;
   margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 .header hr {
@@ -173,7 +174,7 @@ header h3 {
   margin-bottom: 25px;
 }
 
-#tag h1, #vison h1  {
+#vison h1  {
   margin-bottom: 50px;
 }
 
@@ -275,7 +276,30 @@ footer p {
   text-decoration: none;
 }
 
+.selector h1 {
+  text-align: left !important;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
 
+.brother-class-select input {
+  display: none;
+}
+
+.brother-class-select label {
+  display: block;
+  font-size: 24px;
+  padding: 5px;
+  margin: 25px 0px;
+}
+
+.brother-class-select label:hover {
+  cursor: pointer;
+}
+
+.brother-class-select input[type="radio"]:checked+label {
+  background-color: red;
+}
 
 @media (min-width: 0px) and (max-width: 580px) {
   .nav-container {
