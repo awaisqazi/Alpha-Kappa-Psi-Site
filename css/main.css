@@ -279,7 +279,7 @@ footer p {
 .selector h1 {
   text-align: left !important;
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
 }
 
 .brother-class-select input {
@@ -290,7 +290,8 @@ footer p {
   display: block;
   font-size: 24px;
   padding: 5px;
-  margin: 25px 0px;
+  margin-top: 25px;
+  margin-bottom: 0;
 }
 
 .brother-class-select label:hover {
@@ -298,7 +299,12 @@ footer p {
 }
 
 .brother-class-select input[type="radio"]:checked+label {
-  background-color: red;
+  background-color: #2c4b81;
+  color: #ffffff;
+}
+
+#team {
+  min-height: 100vh;
 }
 
 @media (min-width: 0px) and (max-width: 580px) {
