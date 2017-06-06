@@ -1,10 +1,7 @@
 var colonyValues = [
                     {name: "Awais Qazi", position: "Founding President", imgURL: "assets/jpg/headshots/head-18.jpg"},
                     {name: "Nikil Ghandi", position: "Founding Brother", imgURL: "assets/jpg/headshots/head-35.jpg"},
-                    {name: "Reza Wang-Lofti", position: "Founding Brother", imgURL: "assets/jpg/headshots/head-39.jpg"}
-                  ]
-
-var alphaValues = [
+                    {name: "Reza Wang-Lofti", position: "Founding Brother", imgURL: "assets/jpg/headshots/head-39.jpg"},
                     {name: "Adit Patel", position: "", imgURL: "assets/jpg/headshots/head-15.jpg"},
                     {name: "Aidan McGourty", position: "", imgURL: "assets/jpg/headshots/head-37.jpg"},
                     {name: "Akash Sewani", position: "", imgURL: "assets/jpg/headshots/head-22.jpg"},
@@ -60,6 +57,10 @@ var alphaValues = [
                     {name: "Zohaeb Atiq", position: "", imgURL: "assets/jpg/empty.jpg"}
                   ]
 
+var alphaValues = [
+
+                  ]
+
 function changeIMGs(array) {
   newContent = "<div class='col-md-12 header'><h1>Meet Our Brothers</h1><hr /></div>";
   for (var i = 0; i < array.length; i++) {
@@ -77,8 +78,8 @@ $('#alpha').click(function(){
     changeIMGs(alphaValues);
 });
 $('#colony').click(function(){
-    document.getElementById("brother-class").innerHTML = "Fall 2016";
+    document.getElementById("brother-class").innerHTML = "Spring 2017";
     changeIMGs(colonyValues);
 });
 
-changeIMGs(alphaValues);
+changeIMGs(colonyValues);
