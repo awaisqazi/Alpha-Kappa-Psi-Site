@@ -352,6 +352,17 @@ footer p {
   -ms-transform: translate(-50%, -50%);
 }
 
+#tag {
+  background-image: url(../assets/jpg/awais.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#tag h1 {
+  color: #ffffff;
+  text-shadow: 0 1px 10px #000;
+}
+
 @media (min-width: 0px) and (max-width: 580px) {
   .nav-container {
       width: 540px !important;
