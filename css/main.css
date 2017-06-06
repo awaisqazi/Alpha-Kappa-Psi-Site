@@ -42,6 +42,12 @@ header {
   margin-top: 54px;
 }
 
+.bigger {
+  text-align: center;
+  font-size: 22px !important;
+  margin-bottom: 50px;
+}
+
 /*.carousel-item {
   justify-content: center;
   background-color: #cccccc;
