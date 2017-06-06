@@ -213,16 +213,22 @@ header h3 {
 }
 
 #blurb {
-    margin-top: 50px;
+    margin-top: 0px;
     padding: 70px 0;
-    background-color: #000;
+    background-color: #000000;
+    padding: 0;
 }
 
-#blurb p {
-  font-size: 40px;
+#blurb h1 {
+  font-size: 30px;
   text-align: center;
-  /*text-indent: 3em hanging;*/
-  color: #fff;
+  color: #ffffff;
+}
+
+#blurb h2 {
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .headshot {
