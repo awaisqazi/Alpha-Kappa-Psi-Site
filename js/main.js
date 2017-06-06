@@ -1,4 +1,4 @@
-var colonyValues = [
+var foundingValues = [
                     {name: "Awais Qazi", position: "Founding President", imgURL: "assets/jpg/headshots/head-18.jpg"},
                     {name: "Nikil Ghandi", position: "Founding Brother", imgURL: "assets/jpg/headshots/head-35.jpg"},
                     {name: "Reza Wang-Lofti", position: "Founding Brother", imgURL: "assets/jpg/headshots/head-39.jpg"},
@@ -77,9 +77,9 @@ $('#alpha').click(function(){
     document.getElementById("brother-class").innerHTML = "Spring 2017";
     changeIMGs(alphaValues);
 });
-$('#colony').click(function(){
+$('#founding').click(function(){
     document.getElementById("brother-class").innerHTML = "Spring 2017";
-    changeIMGs(colonyValues);
+    changeIMGs(foundingValues);
 });
 
-changeIMGs(colonyValues);
+changeIMGs(foundingValues);
