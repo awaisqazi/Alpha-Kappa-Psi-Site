@@ -48,46 +48,6 @@ header {
   margin-bottom: 50px!important;
 }
 
-/*.carousel-item {
-  justify-content: center;
-  background-color: #cccccc;
-  background-size: cover;
-  background-position: center;
-}
-
-.carousel-control-next {
-  background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
-}
-
-.carousel-control-prev {
-  background: linear-gradient(to left, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
-}
-
-.carousel-control-next, .carousel-control-prev {
-  opacity: 0.5 !important;
-  transition: 500ms;
-}
-
-.carousel-control-next:hover, .carousel-control-prev:hover {
-  opacity: 0.6 !important;
-}
-
-.d-block {
-  height: 100vh;
-}
-
-.carousel-1 {
-  background-image: url(../assets/jpg/newark.jpg);
-}
-
-.carousel-2 {
-  background-image: url(../assets/jpg/skyline.jpg);
-}
-
-.carousel-3 {
-  background-image: url(../assets/jpg/group.jpg);
-}*/
-
 header {
   height: calc(100vh - 175px) !important;
   display: flex;
