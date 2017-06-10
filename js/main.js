@@ -78,4 +78,4 @@ $('#founding').click(function(){
     changeIMGs(foundingValues);
 });
 
-changeIMGs(foundingValues);
+//changeIMGs(foundingValues);
