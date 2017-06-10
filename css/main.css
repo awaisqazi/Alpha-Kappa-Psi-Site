@@ -145,11 +145,11 @@ header h3 {
 .question h1 {
   font-size: 30px;
   margin-bottom: 25px;
-  font-family: "Lato"
+  font-family: "Lato" !important
 }
 
 .question p {
-  font-family: "Open Sans"
+  font-family: "Open Sans" !important
 }
 
 #vison h1  {
