@@ -152,9 +152,17 @@ header h3 {
   font-family: "Open Sans";
 }
 
+#vison {
+  background-image: url(../assets/jpg/newark.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 #vison h1  {
   margin-bottom: 50px;
   font-family: "Lato";
+  text-shadow: 0 1px 10px #000;
+  color: #fff;
 }
 
 #welcome p, #history p {
