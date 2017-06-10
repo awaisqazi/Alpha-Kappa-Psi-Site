@@ -67,7 +67,7 @@ header h1 {
   text-shadow: 0 1px 10px #000;
   position: relative;
   bottom: 10px;
-  font-family: "Lato"
+  font-family: "Lato";
 }
 
 header h2 {
@@ -75,7 +75,7 @@ header h2 {
   font-size: 3vw;
   text-align: center;
   text-shadow: 0 1px 10px #000;
-  font-family: "Lato"
+  font-family: "Lato";
 }
 
 header h3 {
@@ -83,7 +83,7 @@ header h3 {
   font-size: 2.6vw;
   text-align: center;
   text-shadow: 0 1px 10px #000;
-    font-family: "Lato"
+    font-family: "Lato";
 }
 
 .wrap {
@@ -115,7 +115,7 @@ header h3 {
   text-align: center;
   margin-top: 75px;
   margin-bottom: 75px;
-  font-family: "Lato"
+  font-family: "Lato";
 }
 
 .header hr {
@@ -130,12 +130,12 @@ header h3 {
   margin-bottom: 30px;
   text-align: center;
   font-size: 28px;
-  font-family: "Lato"
+  font-family: "Lato";
 }
 
 .core p {
   text-align: center;
-  font-family: "Open Sans"
+  font-family: "Open Sans";
 }
 
 .question {
@@ -145,22 +145,22 @@ header h3 {
 .question h1 {
   font-size: 30px;
   margin-bottom: 25px;
-  font-family: "Lato" !important
+  font-family: "Lato";
 }
 
 .question p {
-  font-family: "Open Sans" !important
+  font-family: "Open Sans";
 }
 
 #vison h1  {
   margin-bottom: 50px;
-  font-family: "Lato"
+  font-family: "Lato";
 }
 
 #welcome p, #history p {
   font-size: 18px;
   line-height: 24px;
-  font-family: "Open Sans"
+  font-family: "Open Sans";
 }
 
 #history .image {
@@ -176,7 +176,7 @@ header h3 {
 
 #history .image h1 {
   margin: 10px 0;
-  font-family: "Lato"
+  font-family: "Lato";
 }
 
 .image h1 {
@@ -184,7 +184,7 @@ header h3 {
   font-size: 34px;
   text-align: center;
   line-height: 50px;
-  font-family: "Tenor Sans"
+  font-family: "Tenor Sans";
 }
 
 #blurb {
