@@ -70,6 +70,7 @@ function changeIMGs(array) {
   document.getElementById("headshots").innerHTML = newContent;
 }
 function redir(str){
+	if(str != '')
 	window.open(str);
 }
 $('#alpha').click(function(){
