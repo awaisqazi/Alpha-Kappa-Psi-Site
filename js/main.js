@@ -58,11 +58,11 @@ var alphaValues = [
                   ]
 
 function changeIMGs(array) {
-  newContent = "<div class='col-md-12 header'><h1>Meet Our Brothers</h1><hr /></div>";
+  newContent = "<div class='col-md-12'><h1></h1><hr /></div>";
   for (var i = 0; i < array.length; i++) {
     member = array[i];
     //var newMemberHTML = "<div class='col-md-3 headshot'><img src='"+member.imgURL+"' /><h2>"+member.name+"</h2><h2>"+member.position+"</h2></div>";
-    var newMemberHTML = "<div class='col-md-3 headshot'><img src='"+member.imgURL+"' class='image'><div class='overlay'><div class='text'><p>'"+member.position+"'</p><p>'"+member.major+"'</p><p>'"+member.minor+"'</p></div></div><h2>"+member.name+"</h2></div>";
+    var newMemberHTML = "<div class='col-md-3 headshot shadow1'><img src='"+member.imgURL+"' class='image'><div class='overlay'><div class='text'><p>'"+member.position+"'</p><p>'"+member.major+"'</p><p>'"+member.minor+"'</p></div></div><h2>"+member.name+"</h2></div>";
     console.log(newMemberHTML)
     var newContent = newContent.concat(newMemberHTML);
   }
