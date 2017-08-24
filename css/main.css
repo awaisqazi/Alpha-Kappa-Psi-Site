@@ -225,6 +225,7 @@ header h3 {
   margin-left: 0px;
   margin-right: 0px;
 }
+
 .backColor{
 	background-color: #3F51B5;
 	border-radius: 10px 10px 10px 10px;
@@ -248,7 +249,9 @@ header h3 {
 }
 .headshot img {
   width: 100%;
-  margin: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .headshot h2 {
